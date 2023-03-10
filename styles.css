@@ -113,17 +113,9 @@ button {
 
 .mr a {
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
-p {
-    font-size: 20px;
-}
-
-a {
-    font-size: 20px;
-}
-
-li {
+p,a,li{
     font-size: 20px;
 }
