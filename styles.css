@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif, Impact, Charcoal;
+}
+
+body {
+    background-color:rgb(249, 247, 247);
+    margin: 0;
+}   
+
+header {
+    background-color:blanchedalmond;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    display: block;
+    color:rgb(67, 65, 65);
+    font-size: 30px;
+    font-style: italic;
+    margin: 10px;  
+}
+
+.colachicken {
+    display: flex;
+    flex-direction: column;
+}
+
+#dcolachicken {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acolachicken {
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#icolachicken {
+    margin: 0px auto;
+}
+
+.description {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#idescription {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.steps {
+    width: 40%;
+}
+
+.mr {
+    display: flex;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color:blanchedalmond;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.ml {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mr ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.mr li {
+    list-style: none;
+}
+
+.mr a {
+    text-decoration: none;
+    color: black;
+    
+}
